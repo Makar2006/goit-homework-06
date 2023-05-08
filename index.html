@@ -541,7 +541,7 @@
           </p>
         </div>
         <div class="container-center">
-          <p class="footer-text footer-text-s">Social media</p>
+          <p class="footer-title">Social media</p>
           <ul class="social-list list">
             <li class="social-item">
               <a
@@ -598,9 +598,10 @@
           </ul>
         </div>
         <div class="container-right">
-          <p class="footer-text footer-text-s">Subscribe</p>
-          <div class="footer-container-in">
-            <form>
+          <p class="footer-title">Subscribe</p>
+
+          <form>
+            <div class="footer-container-in">
               <label>
                 <input
                   class="footer-input"
@@ -609,14 +610,14 @@
                   placeholder="E-mail"
                 />
               </label>
-            </form>
-            <button class="subscribe-btn" type="submit">
-              Subscribe
-              <svg class="subscribe-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-paper-plane"></use>
-              </svg>
-            </button>
-          </div>
+              <button class="subscribe-btn" type="submit">
+                Subscribe
+                <svg class="subscribe-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-paper-plane"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -637,7 +638,7 @@
         >
         <form name="modal-form">
           <label class="modal-form-label">
-            Name
+            <span class="modal-text">Name</span>
             <div class="modal-form-field">
               <input class="modal-form-input" type="text" name="user_name" />
               <svg class="modal-form-icon-u" width="12" height="12">
@@ -646,7 +647,7 @@
             </div>
           </label>
           <label class="modal-form-label">
-            Phone
+            <span class="modal-text">Phone</span>
             <div class="modal-form-field">
               <input class="modal-form-input" type="tel" name="user_tel" />
               <svg class="modal-form-icon" width="13" height="13">
@@ -655,7 +656,7 @@
             </div>
           </label>
           <label class="modal-form-label">
-            Email
+            <span class="modal-text">Email</span>
             <div class="modal-form-field">
               <input class="modal-form-input" type="email" name="user_email" />
               <svg class="modal-form-icon" width="15" height="12">
@@ -664,7 +665,7 @@
             </div>
           </label>
           <label class="modal-form-label m-f-l">
-            Comment
+            <span class="modal-text">Comment</span>
             <textarea
               class="modal-form-message"
               name="user_comment"
