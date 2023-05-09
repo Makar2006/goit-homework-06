@@ -534,6 +534,7 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus {
