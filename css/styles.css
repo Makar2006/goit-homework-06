@@ -775,6 +775,7 @@ img {
 .modal-form-label {
   display: block;
   margin-bottom: 8px;
+  position: relative;
 
   font-weight: 400;
   font-size: 12px;
@@ -815,10 +816,10 @@ img {
   fill: #2e2f42;
 
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 16px;
 
-  transform: translateY(-50%);
+  transform: translateY(-80%);
   transition: fill var(--transition-time) var(--cubic-bezier);
   pointer-events: none;
 }
@@ -828,10 +829,10 @@ img {
   fill: #2e2f42;
 
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 16px;
 
-  transform: translateY(-50%);
+  transform: translateY(-80%);
   transition: fill var(--transition-time) var(--cubic-bezier);
   pointer-events: none;
 }
